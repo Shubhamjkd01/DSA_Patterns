@@ -1,5 +1,9 @@
 // LeetCode 917. Reverse Only Letters
-
+#include <vector>
+#include <utility>
+#include <algorithm>
+#include <iostream>
+using namespace std;
 class Solution {
 public:
     string reverseOnlyLetters(string s) {

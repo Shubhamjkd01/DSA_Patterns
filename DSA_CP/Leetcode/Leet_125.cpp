@@ -15,9 +15,10 @@ public:
             }
         }
 
-        int i = 0, j = clean.size() - 1;
+
+            int i = 0, j = clean.size() - 1;
         while (i < j) {
-            if (clean[i] != clean[j]) return false;
+             if (clean[i] != clean[j]) return false;
             i++; 
             j--;
         }
